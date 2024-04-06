@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* 
+Color code:
+navy black  : #0F298B #000
+red  black  : #DD0A37 #000
+
+darkgreen orange : #036351 #FF6200
+
+green green2   : #1BAE76 #DCFCE7
+orange orange2 : #FF6200 #FEE2E2
+*/
+
+:root {
+    --text-color: #fff;
+    --primary-color: #1BAE76;
+    --primary-color2: #DCFCE7;
+    --secondary-color: #FF6200;
+    --secondary-color2: #FEE2E2;
+  }
+  
+  body{
+      font-family: 'Poppins', sans-serif;
+      /* background-color: #FAFAFA; */
+  }
+  
+  span{
+    color: var(--primary-color);
+  }
+  
+  .active{
+    color: var(--primary-color);
+  }
+
+  .text{
+    color: var(--text-color);
+  }
+  
+  .prim{
+    color: var(--primary-color);
+  }
+  .bg-prim{
+    background-color: var(--primary-color);
+  }
+  .bg-prim2{
+    background-color: var(--primary-color2);
+  }  
+
+  .seco{
+    color: var(--secondary-color);
+  }
+  .bg-seco{
+    background-color: var(--secondary-color);
+  }
+  .bg-seco2{
+    background-color: var(--secondary-color2);
+  }
+  
+  
+  .bg-gray{
+    background-color: #f2f2f7;
+  }
+  
+  .bg-green{
+    background-color: #16A34A;
+  }
+  .green{
+    color: #16A34A;
+  }
+
+  .bg-red{
+    background-color: #DD0A37;
+  }
+  .red{
+    color: #DD0A37;
+  }
+  
+  .btn-prim{
+    padding: 8px 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  .btn-seco{
+    padding: 8px 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
