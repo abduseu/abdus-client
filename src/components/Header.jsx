@@ -60,8 +60,9 @@ const Header = () => {
             {/* Banner Section */}
             <div className=" mx-auto pb-12 text-white bg-banner">
                 <div className="flex flex-col justify-center items-center h-screen">
-                    <h3 className="md:text-3xl font-light pb-4">I'm Abdus Salam</h3>
-                    <h2 className="text-3xl md:text-6xl font-bold"><ReactTyped strings={["Frontend Developer", "Software Developer"]} typeSpeed={100} backSpeed={50} loop /></h2>
+                    <h3 className="text-base md:text-2xl font-light pb-4">Hello! I am</h3>
+                    <h3 className="text-4xl md:text-6xl font-bold pb-4">Abdus Salam</h3>
+                    <h2 className="text-2xl md:text-4xl font-bold"><ReactTyped strings={["Software Developer", "Front-End Developer"]} typeSpeed={100} backSpeed={50} loop /></h2>
                 </div>
             </div>
         </div>
