@@ -1,24 +1,38 @@
 const HomePage = () => {
     return (
         <main>
-            <section>
+            <section id="about">
                 <div className="xl:container mx-auto">
                     <div className="mx-5 my-6">
-                        section 1
+                        About
                     </div>
                 </div>
             </section>
-            <section className="bg-gray">
+            <section id="portfolio" className="bg-gray">
                 <div className="xl:container mx-auto">
                     <div className="mx-5 my-6">
-                        section 2
+                        Portfolio
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="skills">
                 <div className="xl:container mx-auto">
                     <div className="mx-5 my-6">
-                        section 3
+                        Skills
+                    </div>
+                </div>
+            </section>
+            <section id="services" className="bg-gray">
+                <div className="xl:container mx-auto">
+                    <div className="mx-5 my-6">
+                        Services
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div className="xl:container mx-auto">
+                    <div className="mx-5 my-6">
+                        Contact
                     </div>
                 </div>
             </section>
