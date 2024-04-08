@@ -24,6 +24,7 @@ orange orange2 : #FF6200 #FEE2E2
 */
 
 :root {
+  scroll-behavior: smooth;
     --text-color: #fff;
     --primary-color: #1BAE76;
     --primary-color2: #DCFCE7;

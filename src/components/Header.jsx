@@ -1,18 +1,25 @@
 import React from "react";
 import { Navbar, MobileNav, Typography, IconButton } from "@material-tailwind/react";
 import { SiArtixlinux } from "react-icons/si";
-import {ReactTyped} from 'react-typed';
-import {Link} from 'react-router-dom';
+import { ReactTyped } from 'react-typed';
+import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Header = () => {
     const [openNav, setOpenNav] = React.useState(false);
 
-    React.useEffect(() => {
+    useEffect(() => {
         window.addEventListener(
             "resize",
             () => window.innerWidth >= 960 && setOpenNav(false),
         );
     }, []);
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
 
     const navList = (
         <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -61,7 +68,9 @@ const Header = () => {
             {/* Banner Section */}
             <div className=" mx-auto pb-12 text-white bg-banner">
                 <div className="flex flex-col justify-center items-center h-screen">
-                    <h3 className="text-base md:text-2xl font-light pb-4">Hello! I am</h3>
+                    <div data-aos="fade-zoom-in" data-aos-duration="3000">
+                        <h3 className="text-base md:text-2xl font-light pb-4">Hello! I am</h3>
+                    </div>
                     <h3 className="text-4xl md:text-6xl font-bold pb-4">Abdus Salam</h3>
                     <h2 className="text-2xl md:text-4xl font-bold"><ReactTyped strings={["Software Developer", "Front-End Developer"]} typeSpeed={100} backSpeed={50} loop /></h2>
                 </div>

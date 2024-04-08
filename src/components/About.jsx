@@ -1,10 +1,10 @@
 import { Button } from "@material-tailwind/react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
     return (
         <div className="mx-5 my-6">
             <div className="mx-auto md:py-16">
-                {/* <h3 className="text-center text-4xl font-bold uppercase">About</h3> */}
                 <div className="md:flex justify-between items-center gap-12">
                     <div>
                         <img src="https://i.ibb.co/s913LHG/about-compressed.jpg" />
@@ -27,6 +27,18 @@ const About = () => {
                             <div className="space-y-4 my-4">
                                 <p><span className="font-semibold">Education:</span> Graduate</p>
                                 <p><span className="font-semibold">Email:</span> N/A</p>
+                            </div>
+                        </div>
+                        <div className="flex items-center gap-2 text-xl font-medium">
+                            <h3>Follow me on: </h3>
+                            <div className="flex gap-2">
+                                <a href="https://github.com/abduseu" target="_blank" rel="noopener noreferrer">
+                                    <FaGithub />
+                                </a>
+                                <a href="https://www.linkedin.com/in/abduseu/" target="_blank" rel="noopener noreferrer">
+                                    <FaLinkedin />
+                                </a>
+
                             </div>
                         </div>
                         <div>
