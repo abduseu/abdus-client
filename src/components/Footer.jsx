@@ -13,7 +13,7 @@ const Footer = () => {
                             <span className="self-center text-2xl flex items-center gap-2 whitespace-nowrap">
                                 <SiArtixlinux /> Abdus Salam
                             </span>
-                            <p>Software Developer</p>
+                            <h3>Software Developer</h3>
                         </Link>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

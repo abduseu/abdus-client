@@ -1,11 +1,11 @@
+import About from "../components/About";
+
 const HomePage = () => {
     return (
         <main>
             <section id="about">
                 <div className="xl:container mx-auto">
-                    <div className="mx-5 my-6">
-                        About
-                    </div>
+                    <About></About>
                 </div>
             </section>
             <section id="portfolio" className="bg-gray">

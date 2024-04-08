@@ -35,6 +35,15 @@ orange orange2 : #FF6200 #FEE2E2
       font-family: 'Poppins', sans-serif;
       /* background-color: #FAFAFA; */
   }
+
+  h4 {
+    color: #707070;
+  }
+
+  p{
+    color: #707070;
+    font-weight: 300;
+  }
   
   span{
     color: var(--primary-color);
@@ -97,14 +106,12 @@ orange orange2 : #FF6200 #FEE2E2
   .btn-prim{
     padding: 8px 24px;
     font-weight: 700;
-    border-radius: 8px;
     background-color: var(--primary-color);
     color: #fff;
   }
   .btn-seco{
     padding: 8px 24px;
     font-weight: 700;
-    border-radius: 8px;
     background-color: var(--secondary-color);
     color: #fff;
   }
