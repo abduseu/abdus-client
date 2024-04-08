@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const About = () => {
     return (
         <div className="mx-5 my-6">
-            <div className="mx-auto md:py-16">
+            <div className="mx-auto md:mt-16">
                 <div className="md:flex justify-between items-center gap-12">
                     <div>
                         <img src="https://i.ibb.co/s913LHG/about-compressed.jpg" />
