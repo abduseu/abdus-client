@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="mx-5 my-6">
             <div className="mx-auto md:mt-16">
-                <div className="md:flex justify-between items-center gap-12">
+                <div className="md:flex flex-wrap justify-between items-center gap-12">
                     <div>
                         <img src="https://i.ibb.co/s913LHG/about-compressed.jpg" />
                     </div>
@@ -26,7 +26,7 @@ const About = () => {
                             </div>
                             <div className="space-y-4 my-4">
                                 <p><span className="font-semibold">Education:</span> Graduate</p>
-                                <p><span className="font-semibold">Email:</span> N/A</p>
+                                <p><span className="font-semibold">Email:</span> abc@gmail.com</p>
                             </div>
                         </div>
                         <div className="flex items-center gap-2 text-xl font-medium">

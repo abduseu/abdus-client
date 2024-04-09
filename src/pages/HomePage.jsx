@@ -1,8 +1,8 @@
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Education from "../components/Education";
 import Portfolio from "../components/Portfolio";
-import Services from "../components/Services";
+// import Education from "../components/Education";
+// import Services from "../components/Services";
 import Skills from "../components/Skills";
 
 const HomePage = () => {
@@ -13,7 +13,7 @@ const HomePage = () => {
                     <About></About>
                 </div>
             </section>
-            <section id="skills">
+            <section id="skills" className="bg-gray">
                 <div className="xl:container mx-auto">
                     <Skills></Skills>
                 </div>
@@ -23,7 +23,7 @@ const HomePage = () => {
                     <Portfolio></Portfolio>
                 </div>
             </section>
-            <section id="education">
+            {/* <section id="education">
                 <div className="xl:container mx-auto">
                     <Education></Education>
                 </div>
@@ -32,7 +32,7 @@ const HomePage = () => {
                 <div className="xl:container mx-auto">
                     <Services></Services>
                 </div>
-            </section>
+            </section> */}
             <section id="contact">
                 <div className="xl:container mx-auto">
                     <Contact></Contact>
