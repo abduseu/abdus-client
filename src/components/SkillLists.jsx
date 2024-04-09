@@ -1,4 +1,4 @@
-const SkillLists = () => {
+const Skills = () => {
     return (
         <div className="mx-5 my-6">
             <div className="mx-auto md:py-16 space-y-4">
@@ -35,4 +35,4 @@ const SkillLists = () => {
     );
 };
 
-export default SkillLists;
+export default Skills;
