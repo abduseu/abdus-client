@@ -116,3 +116,8 @@ orange orange2 : #FF6200 #FEE2E2
     background-color: var(--secondary-color);
     color: #fff;
   }
+
+  .text-reverse{
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }

@@ -2,6 +2,11 @@ import { Button } from "@material-tailwind/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
+    //reverse a string
+    const reverseString = (str) => {
+        return str.split('').reverse().join('');
+    };
+
     return (
         <div className="mx-5 my-6">
             <div className="mx-auto md:mt-16">
@@ -26,7 +31,7 @@ const About = () => {
                             </div>
                             <div className="space-y-4 my-4">
                                 <p><span className="font-semibold">Education:</span> Graduate</p>
-                                <p><span className="font-semibold">Email:</span> abc@gmail.com</p>
+                                <p><span className="font-semibold">Email:</span> <h3 className="text-reverse inline">{reverseString("abduseu@gmail.com")}</h3></p>
                             </div>
                         </div>
                         <div className="flex items-center gap-2 text-xl font-medium">

@@ -1,8 +1,5 @@
 import About from "../components/About";
-import Contact from "../components/Contact";
 import Portfolio from "../components/Portfolio";
-// import Education from "../components/Education";
-// import Services from "../components/Services";
 import Skills from "../components/Skills";
 
 const HomePage = () => {
@@ -21,21 +18,6 @@ const HomePage = () => {
             <section id="portfolio" className="bg-gray">
                 <div className="xl:container mx-auto">
                     <Portfolio></Portfolio>
-                </div>
-            </section>
-            {/* <section id="education">
-                <div className="xl:container mx-auto">
-                    <Education></Education>
-                </div>
-            </section>
-            <section id="services" className="bg-gray">
-                <div className="xl:container mx-auto">
-                    <Services></Services>
-                </div>
-            </section> */}
-            <section id="contact">
-                <div className="xl:container mx-auto">
-                    <Contact></Contact>
                 </div>
             </section>
         </main>
