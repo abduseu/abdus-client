@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Certifications from "../components/Certifications";
 import Portfolio from "../components/Portfolio";
 import Skills from "../components/Skills";
 
@@ -13,6 +14,11 @@ const HomePage = () => {
             <section id="skills" className="bg-gray">
                 <div className="xl:container mx-auto">
                     <Skills></Skills>
+                </div>
+            </section>
+            <section id="certifications">
+                <div className="xl:container mx-auto">
+                    <Certifications></Certifications>
                 </div>
             </section>
             <section id="portfolio" className="bg-gray">

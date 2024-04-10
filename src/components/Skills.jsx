@@ -1,7 +1,7 @@
 const Skills = () => {
     return (
         <div className="mx-5 my-6">
-            <div className="mx-auto py-8 md:py-16 space-y-6 md:space-y-12">
+            <div className="mx-auto py-8 md:py-20 space-y-6 md:space-y-12">
                 {/* <h4 className="md:text-xl font-medium">My Skills</h4> */}
                 <h1 className="text-2xl md:text-4xl font-semibold text-center">
                     My Skills

@@ -12,10 +12,10 @@ const Footer2 = () => {
         <footer id="contact" className="bg-gray-900 text-white">
             <div className="flex justify-center text-center p-12">
                 <div>
-                    <span className="text-2xl flex justify-center items-center gap-2">
+                    <span className="text-2xl font-medium flex justify-center items-center gap-2">
                         <SiArtixlinux /> Abdus Salam
                     </span>
-                    <div className="md:flex gap-6 py-6 text-xl text-gray-400">
+                    <div className="md:flex gap-6 py-6 text-xl font-light">
                         <div className="flex items-center gap-2">
                             <IoCall />+880 1715 644442
                         </div>
