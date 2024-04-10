@@ -13,7 +13,7 @@ const Certifications = () => {
                             <div className="flex justify-center text-7xl mb-4">
                                 <SiMeta />
                             </div>
-                            <h3>Meta Frontend Develoepr Professional Certificates</h3>
+                            <h3>Meta Frontend Develoepr Professional Certificate</h3>
                         </div>
                     </a>
                     <a href="https://www.coursera.org/account/accomplishments/verify/S4ZZS239B2PR" target="_blank" rel="noopener noreferrer">
