@@ -1,15 +1,15 @@
 const Portfolio = () => {
     return (
-        <div className="mx-5 mt-6">
+        <div className="mx-5">
             <div className="mx-auto py-8 md:py-20 space-y-6 md:space-y-12">
                 <h1 className="text-2xl md:text-4xl font-semibold text-center">
                     My Portfolio
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                    <a href="https://foodrocket-97ffc.web.app" target="_blank" rel="noopener noreferrer">
+                    <a href="https://grassroot-restaurant.web.app" target="_blank" rel="noopener noreferrer">
                         <div className="bg-white p-8 h-full space-y-2">
                             <img src="https://i.ibb.co/VVrjP1P/grassroot.png" className="h-48 mx-auto object-contain" />
-                            <h3>FoodRocket - Online Food Delivery Platform</h3>
+                            <h3>Grassroot - Restaurant Management System</h3>
                         </div>
                     </a>
                     <a href="https://swissrealty-b5ce9.web.app" target="_blank" rel="noopener noreferrer">
