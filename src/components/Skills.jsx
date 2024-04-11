@@ -33,10 +33,10 @@ const Skills = () => {
                         <span className="text-xl font-semibold">Technologies:</span>
                         <ul className="list-inside list-[circle]">
                             <li>Git & GitHub</li>
+                            <li>Vite & NextJs</li>
                             <li>Firebase</li>
                             <li>Vercel</li>
                             <li>JWT</li>
-                            <li>VSCODE</li>
                             <li>Figma</li>
                         </ul>
                     </div>
