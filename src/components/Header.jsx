@@ -72,7 +72,7 @@ const Header = () => {
                         <h3 className="text-base md:text-2xl font-light pb-4">Hello! I am</h3>
                     </div>
                     <h3 className="text-4xl md:text-6xl font-bold pb-4">Abdus Salam</h3>
-                    <h2 className="text-2xl md:text-4xl font-bold"><ReactTyped strings={["Software Developer", "Front-End Developer"]} typeSpeed={100} backSpeed={50} loop /></h2>
+                    <h2 className="text-2xl md:text-4xl font-bold"><ReactTyped strings={["Software Developer", "Full-Stack Developer"]} typeSpeed={100} backSpeed={50} loop /></h2>
                 </div>
             </div>
         </div>
