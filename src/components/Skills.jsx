@@ -10,8 +10,10 @@ const Skills = () => {
                     <div className="bg-white p-10">
                         <span className="text-xl font-semibold">Front-End:</span>
                         <ul className="list-inside list-[circle]">
-                            <li>React</li>
+                            <li>React.js</li>
+                            <li>Next.js</li>
                             <li>Tailwind</li>
+                            <li>Bootstrap</li>
                             <li>JavasScript(ES6)</li>
                             <li>Vanilla CSS3</li>
                             <li>Figma to HTML</li>
@@ -21,8 +23,10 @@ const Skills = () => {
                     <div className="bg-white p-10">
                         <span className="text-xl font-semibold">Back-End:</span>
                         <ul className="list-inside list-[circle]">
-                            <li>Express</li>
+                            <li>Express.js</li>
                             <li>MongoDB</li>
+                            <li>MySQL</li>
+                            <li>Python</li>
                             <li>RestAPI</li>
                             <li>Authentication</li>
                             <li>Authorization</li>
@@ -30,14 +34,16 @@ const Skills = () => {
                         </ul>
                     </div>
                     <div className="bg-white p-10">
-                        <span className="text-xl font-semibold">Technologies:</span>
+                        <span className="text-xl font-semibold">Other Skills:</span>
                         <ul className="list-inside list-[circle]">
                             <li>Git & GitHub</li>
-                            <li>Vite & NextJs</li>
                             <li>Firebase</li>
                             <li>Vercel</li>
-                            <li>JWT</li>
-                            <li>Figma</li>
+                            <li>Linux</li>
+                            <li>DevTools</li>
+                            <li>Unit Testing</li>
+                            <li>Deployment</li>
+                            <li>Cybersecurity</li>
                         </ul>
                     </div>
                 </div>
