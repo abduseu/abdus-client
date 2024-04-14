@@ -20,7 +20,7 @@ const Footer2 = () => {
                             <IoCall />+880 1715 644442
                         </div>
                         <div className="flex items-center gap-2">
-                            <IoMail /> <h3 className="text-reverse">{reverseString("abduseu@gmail.com")}</h3>
+                            <IoMail /> <h3 className="text-reverse select-none">{reverseString("abduseu@gmail.com")}</h3>
                         </div>
                         <div className="flex items-center gap-2">
                             <IoLocation />Sylhet, BD.
