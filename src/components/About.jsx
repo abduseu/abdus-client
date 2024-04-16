@@ -32,7 +32,7 @@ const About = () => {
                             </div>
                             <div className="space-y-4 my-4">
                                 <p><span className="font-semibold">Education:</span> Graduate</p>
-                                <p><span className="font-semibold">Email:</span> <h3 className="text-reverse inline">{reverseString("abduseu@gmail.com")}</h3></p>
+                                <p><span className="font-semibold">Email:</span> <h3 className="text-reverse inline select-none">{reverseString("abduseu@gmail.com")}</h3></p>
                             </div>
                         </div>
                         <div className="flex items-center gap-2 text-xl font-medium">
