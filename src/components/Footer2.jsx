@@ -23,7 +23,7 @@ const Footer2 = () => {
                             <IoMail /> <h3 className="text-reverse select-none">{reverseString("abduseu@gmail.com")}</h3>
                         </div>
                         <div className="flex items-center gap-2">
-                            <IoLocation />Sylhet, BD.
+                            <IoLocation />Sylhet, BD
                         </div>
                     </div>
                     <div className="flex justify-center items-center gap-2 font-light">
