@@ -12,7 +12,7 @@ const Skills = () => {
                         <ul className="list-inside list-[circle]">
                             <li>React.js</li>
                             <li>Next.js</li>
-                            <li>Tailwind</li>
+                            <li>Tailwind CSS</li>
                             <li>Bootstrap</li>
                             <li>JavasScript(ES6)</li>
                             <li>Vanilla CSS3</li>
