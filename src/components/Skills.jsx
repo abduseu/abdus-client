@@ -14,7 +14,7 @@ const Skills = () => {
                             <li>Next.js</li>
                             <li>Tailwind CSS</li>
                             <li>Bootstrap</li>
-                            <li>JavasScript(ES6)</li>
+                            <li>JavaScript(ES6)</li>
                             <li>Vanilla CSS3</li>
                             <li>Figma to HTML</li>
                             <li>Responsive Design</li>
