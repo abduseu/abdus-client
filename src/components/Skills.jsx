@@ -12,10 +12,10 @@ const Skills = () => {
                         <ul className="list-inside list-[circle]">
                             <li>React.js</li>
                             <li>Next.js</li>
-                            <li>Tailwind CSS</li>
                             <li>Bootstrap</li>
-                            <li>JavaScript(ES6)</li>
+                            <li>Tailwind CSS</li>
                             <li>Vanilla CSS3</li>
+                            <li>JavaScript(ES6)</li>
                             <li>Figma to HTML</li>
                             <li>Responsive Design</li>
                         </ul>
@@ -37,12 +37,12 @@ const Skills = () => {
                         <span className="text-xl font-semibold">Other Skills:</span>
                         <ul className="list-inside list-[circle]">
                             <li>Git & GitHub</li>
-                            <li>Firebase</li>
-                            <li>Vercel</li>
+                            <li>Firebase, Vercel</li>
+                            <li>Payment Gateway</li>
                             <li>Linux</li>
                             <li>DevTools</li>
-                            <li>Unit Testing</li>
                             <li>Deployment</li>
+                            <li>Unit Testing</li>
                             <li>Cybersecurity</li>
                         </ul>
                     </div>
