@@ -26,8 +26,8 @@ const Skills = () => {
                             <li>Express.js</li>
                             <li>MongoDB</li>
                             <li>MySQL</li>
-                            <li>Python</li>
-                            <li>RestAPI</li>
+                            <li>PHP & Python</li>
+                            <li>RestAPI, GraphQL</li>
                             <li>Authentication</li>
                             <li>Authorization</li>
                             <li>CRUD Operations</li>
@@ -39,9 +39,9 @@ const Skills = () => {
                             <li>Git & GitHub</li>
                             <li>Firebase, Vercel</li>
                             <li>Payment Gateway</li>
-                            <li>Linux</li>
-                            <li>DevTools</li>
+                            <li>DNS Management</li>
                             <li>Deployment</li>
+                            <li>DevTools</li>
                             <li>Unit Testing</li>
                             <li>Cybersecurity</li>
                         </ul>
