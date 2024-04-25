@@ -24,8 +24,8 @@ const Skills = () => {
                         <span className="text-xl font-semibold">Back-End:</span>
                         <ul className="list-inside list-[circle]">
                             <li>Express.js</li>
-                            <li>MongoDB</li>
-                            <li>MySQL</li>
+                            <li>MongoDB, Mongoose</li>
+                            <li>MySQL, PostgreSQL</li>
                             <li>PHP & Python</li>
                             <li>RestAPI, GraphQL</li>
                             <li>Authentication</li>
