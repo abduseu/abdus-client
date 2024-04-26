@@ -11,7 +11,7 @@ const Skills = () => {
                         <span className="text-xl font-semibold">Front-End:</span>
                         <ul className="list-inside list-[circle]">
                             <li>React.js</li>
-                            <li>Next.js</li>
+                            <li>Redux</li>
                             <li>Bootstrap</li>
                             <li>Tailwind CSS</li>
                             <li>Vanilla CSS3</li>
@@ -23,13 +23,13 @@ const Skills = () => {
                     <div className="bg-white p-10">
                         <span className="text-xl font-semibold">Back-End:</span>
                         <ul className="list-inside list-[circle]">
+                            <li>Next.js</li>
                             <li>Express.js</li>
                             <li>MongoDB, Mongoose</li>
                             <li>MySQL, PostgreSQL</li>
-                            <li>PHP & Python</li>
                             <li>RestAPI, GraphQL</li>
-                            <li>Authentication</li>
-                            <li>Authorization</li>
+                            <li>PHP & Python Programming</li>
+                            <li>Authentication, Authorization</li>
                             <li>CRUD Operations</li>
                         </ul>
                     </div>
