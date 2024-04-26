@@ -30,8 +30,8 @@ const Skills = () => {
                             <li>MySQL, PostgreSQL</li>
                             <li>MongoDB, Mongoose</li>
                             <li>RestAPI, GraphQL</li>
-                            <li>PHP & Python Programming</li>
-                            <li>Authentication, Authorization</li>
+                            <li>PHP & Python</li>
+                            <li>Authentication</li>
                             <li>CRUD Operations</li>
                         </ul>
                     </div>
