@@ -26,11 +26,11 @@ const Skills = () => {
                         <ul className="list-inside list-[circle]">
                             <li>Next.js</li>
                             <li>Express.js</li>
-                            <li>Prisma ORM</li>
+                            <li>RDBMS, Prisma ORM</li>
                             <li>MySQL, PostgreSQL</li>
                             <li>MongoDB, Mongoose</li>
                             <li>RestAPI, GraphQL</li>
-                            <li>PHP & Python</li>
+                            <li>Node, PHP, Python</li>
                             <li>Authentication</li>
                             <li>CRUD Operations</li>
                         </ul>
