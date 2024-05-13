@@ -31,8 +31,8 @@ const Skills = () => {
                             <li>MongoDB, Mongoose</li>
                             <li>RestAPI, GraphQL</li>
                             <li>Node, PHP, Python</li>
-                            <li>Authentication</li>
                             <li>CRUD Operations</li>
+                            <li>Aggregation pipelines</li>
                         </ul>
                     </div>
                     <div className="bg-white p-10">
@@ -43,8 +43,8 @@ const Skills = () => {
                             <li>AWS, Firebase, Vercel</li>
                             <li>Server Setup, Deployment</li>
                             <li>DNS Management</li>
+                            <li>Reverse Proxy</li>
                             <li>Load Balancing</li>
-                            <li>DevTools</li>
                             <li>Unit Testing</li>
                             <li>Cybersecurity</li>
                         </ul>
