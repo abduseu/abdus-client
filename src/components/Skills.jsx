@@ -12,7 +12,7 @@ const Skills = () => {
                         <ul className="list-inside list-[circle]">
                             <li>React.js</li>
                             <li>Redux</li>
-                            <li>Typescript</li>
+                            <li>Next.js</li>
                             <li>Bootstrap</li>
                             <li>Tailwind CSS</li>
                             <li>Vanilla CSS3</li>
@@ -24,7 +24,7 @@ const Skills = () => {
                     <div className="bg-white p-10">
                         <span className="text-xl font-semibold">Back-End:</span>
                         <ul className="list-inside list-[circle]">
-                            <li>Next.js</li>
+                            <li>Typescript</li>
                             <li>Express.js</li>
                             <li>RDBMS, Prisma ORM</li>
                             <li>MySQL, PostgreSQL</li>
