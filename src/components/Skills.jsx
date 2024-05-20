@@ -25,23 +25,23 @@ const Skills = () => {
                         <span className="text-xl font-semibold">Back-End:</span>
                         <ul className="list-inside list-[circle]">
                             <li>Typescript</li>
-                            <li>Express.js</li>
+                            <li>NodeJS, ExpressJS</li>
                             <li>RDBMS, Prisma ORM</li>
                             <li>MySQL, PostgreSQL</li>
                             <li>MongoDB, Mongoose</li>
                             <li>RestAPI, GraphQL</li>
-                            <li>Node, PHP, Python</li>
+                            <li>PHP & Python</li>
                             <li>CRUD Operations</li>
-                            <li>Aggregation pipelines</li>
+                            <li>Aggregation Framework</li>
                         </ul>
                     </div>
                     <div className="bg-white p-10">
                         <span className="text-xl font-semibold">Other Skills:</span>
                         <ul className="list-inside list-[circle]">
                             <li>Git & GitHub</li>
-                            <li>Docker, CI/CD</li>
-                            <li>AWS, Firebase, Vercel</li>
-                            <li>Server Setup, Deployment</li>
+                            <li>AWS, Docker, CI/CD</li>
+                            <li>Firebase, Vercel</li>
+                            <li>Deployment</li>
                             <li>DNS Management</li>
                             <li>Reverse Proxy</li>
                             <li>Load Balancing</li>
