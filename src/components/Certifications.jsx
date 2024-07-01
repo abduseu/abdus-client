@@ -8,7 +8,7 @@ const Certifications = () => {
                     My Certifications
                 </h1> */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
-                    <a href="#certifications" rel="noopener noreferrer">
+                    <a href="https://www.credly.com/badges/6a205574-dcde-433e-ad1a-f522de1cbbc4" target="_blank" rel="noopener noreferrer">
                         <div className="p-8 rounded-lg">
                             <div className="flex justify-center text-7xl mb-4">
                                 <SiMeta />
