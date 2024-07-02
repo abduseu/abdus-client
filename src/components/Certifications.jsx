@@ -1,4 +1,4 @@
-import { SiMeta, SiJavascript, SiPython, SiIbm } from "react-icons/si";
+import { SiMeta, SiJavascript, SiPython, SiIbm, SiGoogle } from "react-icons/si";
 
 const Certifications = () => {
     return (
@@ -7,13 +7,13 @@ const Certifications = () => {
                 {/* <h1 className="text-2xl md:text-4xl font-semibold text-center">
                     My Certifications
                 </h1> */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
                     <a href="https://www.credly.com/badges/6a205574-dcde-433e-ad1a-f522de1cbbc4" target="_blank" rel="noopener noreferrer">
                         <div className="p-8 rounded-lg">
                             <div className="flex justify-center text-7xl mb-4">
                                 <SiMeta />
                             </div>
-                            <h3>Meta Frontend Develoepr Professional Certificate</h3>
+                            <h3>Meta Front-End Developer Certificate</h3>
                         </div>
                     </a>
                     <a href="https://www.coursera.org/account/accomplishments/verify/S4ZZS239B2PR" target="_blank" rel="noopener noreferrer">
@@ -37,7 +37,15 @@ const Certifications = () => {
                             <div className="flex justify-center text-7xl mb-4">
                                 <SiIbm />
                             </div>
-                            <h3>Cybersecurity IT Fundamentals Specialization</h3>
+                            <h3>Cybersecurity IT Fundamentals</h3>
+                        </div>
+                    </a>
+                    <a href="https://www.credly.com/badges/9e94dd64-2b7c-4df6-84fc-bb457a362bda" target="_blank" rel="noopener noreferrer">
+                        <div className="p-8 rounded-lg">
+                            <div className="flex justify-center text-7xl mb-4">
+                                <SiGoogle />
+                            </div>
+                            <h3>Google IT Support Certificate</h3>
                         </div>
                     </a>
                 </div>
