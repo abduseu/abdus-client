@@ -29,10 +29,10 @@ const Footer2 = () => {
                     <div className="flex justify-center items-center gap-2 font-light">
                         <h3>Follow me on: </h3>
                         <div className="flex gap-2">
-                            <a href="https://github.com/abduseu" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/abduseu" target="_blank" rel="noopener noreferrer" aria-label="Github">
                                 <FaGithub />
                             </a>
-                            <a href="https://www.linkedin.com/in/abduseu/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/abduseu/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                                 <FaLinkedin />
                             </a>
                         </div>
