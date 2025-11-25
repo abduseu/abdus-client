@@ -16,15 +16,15 @@ const Footer2 = () => {
                         <SiArtixlinux /> Abdus Salam
                     </span>
                     <div className="md:flex gap-6 py-6 text-xl font-light">
-                        <div className="flex items-center gap-2">
+                        {/* <div className="flex items-center gap-2">
                             <IoCall />+880 1715 644442
-                        </div>
+                        </div> */}
                         <div className="flex items-center gap-2">
                             <IoMail /> <h3 className="text-reverse select-none">{reverseString("abduseu@gmail.com")}</h3>
                         </div>
-                        <div className="flex items-center gap-2">
-                            <IoLocation />Sylhet, BD
-                        </div>
+                        {/* <div className="flex items-center gap-2">
+                            <IoLocation />Lisbon, Portugal
+                        </div> */}
                     </div>
                     <div className="flex justify-center items-center gap-2 font-light">
                         <h3>Follow me on: </h3>
