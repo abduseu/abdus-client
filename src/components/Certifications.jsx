@@ -1,4 +1,4 @@
-import { SiMeta, SiJavascript, SiPython, SiIbm, SiGoogle } from "react-icons/si";
+import { SiMeta, SiJavascript, SiPython, SiCyberdefenders, SiGoogle } from "react-icons/si";
 
 const Certifications = () => {
     return (
@@ -55,7 +55,7 @@ const Certifications = () => {
                     >
                         <div className="p-8 rounded-lg">
                             <div className="flex justify-center text-7xl mb-4" aria-hidden="true">
-                                <SiIbm />
+                                <SiCyberdefenders />
                             </div>
                             <h3>Cybersecurity IT Fundamentals</h3>
                         </div>

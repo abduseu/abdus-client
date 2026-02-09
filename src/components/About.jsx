@@ -21,7 +21,7 @@ const About = () => {
                                 Front-End Developer
                             </h1>
                             <p className="text-xl">
-                                Hi! I’m a Frontend Developer focused on building interactive, responsive, and user-friendly web applications. I convert designs into web experiences that work well across devices and are easy to use.
+                                Front-end Developer with hands-on experience in React and JavaScript (ES6+), building responsive, performance-optimized web applications. Translates UI/UX designs into cross-browser, mobile-first interfaces, improving usability and code maintainability.
                             </p>
                         </div>
                         <hr />
@@ -46,10 +46,15 @@ const About = () => {
                                 </a>
                             </div>
                         </div>
-                        <div>
+                        <div className="flex gap-2">
                             <a href="#contact">
                                 <Button variant="filled" color="black" className="rounded-full">
                                     Contact me
+                                </Button>
+                            </a>
+                            <a href="/cv/Abdus_Salam_Frontend_Developer_CV.pdf" download>
+                                <Button variant="filled" color="black" className="rounded-full">
+                                    Download CV
                                 </Button>
                             </a>
                         </div>

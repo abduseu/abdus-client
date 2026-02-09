@@ -11,11 +11,11 @@ const HomePage = () => {
                     <About></About>
                 </div>
             </section>
-            {/* <section id="skills" className="bg-gray">
+            <section id="skills" className="bg-gray">
                 <div className="xl:container mx-auto">
                     <Skills></Skills>
                 </div>
-            </section> */}
+            </section>
             <section id="certifications">
                 <div className="xl:container mx-auto">
                     <Certifications></Certifications>

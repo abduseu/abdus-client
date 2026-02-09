@@ -11,8 +11,8 @@ const Skills = () => {
                         <span className="text-xl font-semibold">Front-End:</span>
                         <ul className="list-inside list-[circle]">
                             <li>React.js</li>
-                            <li>Redux</li>
-                            <li>Next.js</li>
+                            {/* <li>Redux</li>
+                            <li>Next.js</li> */}
                             <li>Bootstrap</li>
                             <li>Tailwind CSS</li>
                             <li>Vanilla CSS3</li>
@@ -24,27 +24,28 @@ const Skills = () => {
                     <div className="bg-white p-10">
                         <span className="text-xl font-semibold">Back-End:</span>
                         <ul className="list-inside list-[circle]">
-                            <li>Typescript</li>
-                            <li>NodeJS, ExpressJS</li>
-                            <li>RDBMS, Prisma ORM</li>
-                            <li>MySQL, PostgreSQL</li>
-                            <li>MongoDB, Mongoose</li>
-                            <li>RestAPI, GraphQL</li>
-                            <li>PHP & Python</li>
+                            {/* <li>Typescript</li> */}
+                            {/* <li>RDBMS, Prisma ORM</li> */}
+                            <li>NodeJS</li>
+                            <li>ExpressJS</li>
+                            <li>MongoDB</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>RestAPI</li>
                             <li>CRUD Operations</li>
-                            <li>Aggregation Framework</li>
+                            {/* <li>Aggregation Framework</li> */}
                         </ul>
                     </div>
                     <div className="bg-white p-10">
                         <span className="text-xl font-semibold">Other Skills:</span>
                         <ul className="list-inside list-[circle]">
                             <li>Git & GitHub</li>
-                            <li>AWS, Docker, CI/CD</li>
+                            {/* <li>AWS, Docker, CI/CD</li> */}
                             <li>Firebase, Vercel</li>
                             <li>Deployment</li>
                             <li>DNS Management</li>
-                            <li>Reverse Proxy</li>
-                            <li>Load Balancing</li>
+                            {/* <li>Reverse Proxy</li> */}
+                            {/* <li>Load Balancing</li> */}
                             <li>Unit Testing</li>
                             <li>Cybersecurity</li>
                         </ul>
