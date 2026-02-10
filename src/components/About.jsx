@@ -28,7 +28,7 @@ const About = () => {
                         <div className="md:flex text-xl gap-40">
                             <div className="space-y-4 my-4">
                                 <p><span className="font-semibold">Name:</span> Abdus Salam</p>
-                                <p><span className="font-semibold">Location:</span> Sylhet, BD</p>
+                                <p><span className="font-semibold">Location:</span> Lisbon, Portugal</p>
                             </div>
                             <div className="space-y-4 my-4">
                                 <p><span className="font-semibold">Education:</span> Graduate</p>
