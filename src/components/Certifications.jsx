@@ -9,6 +9,19 @@ const Certifications = () => {
                 </h1>
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
                     <a 
+                        href="https://www.credly.com/badges/6a205574-dcde-433e-ad1a-f522de1cbbc4" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        aria-label="Meta Front-End Developer Certificate"
+                    >
+                        <div className="p-8 rounded-lg">
+                            <div className="flex justify-center text-7xl mb-4" aria-hidden="true">
+                                <SiMeta />
+                            </div>
+                            <h3>Meta Front-End Developer Certificate</h3>
+                        </div>
+                    </a>
+                    {/* <a 
                         href="https://www.credly.com/badges/4bdcf887-175d-405a-992a-8eec62a4ced9" 
                         target="_blank" 
                         rel="noopener noreferrer" 
@@ -20,7 +33,7 @@ const Certifications = () => {
                             </div>
                             <h3>Meta Full-Stack Engineer Certificate</h3>
                         </div>
-                    </a>
+                    </a> */}
                     <a 
                         href="https://www.coursera.org/account/accomplishments/verify/S4ZZS239B2PR" 
                         target="_blank" 
