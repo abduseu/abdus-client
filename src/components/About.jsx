@@ -21,7 +21,7 @@ const About = () => {
                                 Front-End Developer
                             </h1>
                             <p className="text-xl">
-                                Front-end Developer with hands-on experience in React and JavaScript (ES6+), building responsive, performance-optimized web applications. Translates UI/UX designs into cross-browser, mobile-first interfaces, improving usability and code maintainability.
+                                Front-end Developer with hands-on experience in React and JavaScript (ES6+), building responsive, performance-optimized web applications. Translates UI/UX designs into cross-browser, mobile-friendly interfaces, improving usability and code maintainability.
                             </p>
                         </div>
                         <hr />
@@ -52,11 +52,16 @@ const About = () => {
                                     Contact me
                                 </Button>
                             </a>
-                            <a href="/cv/Abdus_Salam_Frontend_Developer_CV.pdf" download>
+                            {/* <a href="/cv/Abdus_Salam_Frontend_Developer_CV1.pdf" download>
                                 <Button variant="filled" color="black" className="rounded-full">
                                     Download CV
                                 </Button>
-                            </a>
+                            </a> */}
+                            {/* <a href="/cv/Abdus_Salam_Frontend_Developer_CV2.pdf" download>
+                                <Button variant="filled" color="black" className="rounded-full">
+                                    Download CV
+                                </Button>
+                            </a> */}
                         </div>
                     </div>
                 </div>
